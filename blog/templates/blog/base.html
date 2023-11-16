@@ -42,6 +42,13 @@
     <main role="main" class="container">
         <div class="row">
           <div class="col-md-8">
+            {% if messages %}
+              {% for message_item in messages %}
+              <div class="alert alert-{{ message_item.tags }}">
+                {{ message_item}}
+              </div>
+              {% endfor %}
+            {% endif %}
             {% block content %}{% endblock %}
           </div>
           <div class="col-md-4">
