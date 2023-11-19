@@ -1,0 +1,22 @@
+[
+    {
+        "title": "blog 1",
+        "content": "First Blog!",
+        "user_id": 1
+    },
+    {
+        "title": "Blog 2",
+        "content": "Second Blog!",
+        "user_id": 1
+    },
+    {
+        "title": "Blog 3",
+        "content": "3rd Post!",
+        "user_id": 1
+    },
+    {
+        "title": "Blog 4 Updated",
+        "content": "Fourth Blog!",
+        "user_id": 1
+    }
+]
